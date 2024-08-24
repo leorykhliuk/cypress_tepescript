@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- <h1>Fruit Counter</h1> -->
+</head>
+<body>
+
+<h2>Fruit Counter</h2>
+<ul>
+  <button>+</button> Apples</br></br>
+  <button>+</button> Kiwi</br></br>
+  <button>+</button> Grapes</br></br>
+  <button>+</button> Melon</br></br>
+</ul>
+<output id="count">0</output>
+
+<script>
+    document.querySelectorAll('button').forEach(function(button) {
+    button.addEventListener('click', function () {
+    const output = document.getElementById('count')
+    const n = parseInt(output.innerText)
+    output.innerText = String(n + 1);
+    })
+   })
+
+</script>
+</body>
+</html>
+

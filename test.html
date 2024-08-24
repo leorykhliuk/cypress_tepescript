@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" 
+content="width=device-width, initial-scale=1.0"> 
+<title>Delete Me Buttons</title> 
+<script> 
+    function deleteButton (buttonId) {
+        var button = document.getElementById (buttonId);
+        button.parentNode. removeChild (button) ;
+    }
+</script> 
+</head> 
+<body>
+<button id="button1" onclick="deleteButton ('button1')">Delete Me</button> 
+<button id="button2" onclick="deleteButton('button2')">Delete Me</button> 
+<button id="button3" onclick="deleteButton ('button3')">Delete Me</button> 
+<button id="button4" onclick="deleteButton('button4')">Delete Me</button> 
+<button id="button5" onclick="deleteButton('button5')">Delete Me</button>
+</body> 
+
+</html>

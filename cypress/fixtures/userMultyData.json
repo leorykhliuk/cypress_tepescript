@@ -1,0 +1,16 @@
+{
+  "exampleOne": {
+    "firstName": "Jill",
+    "lastName": "Brooks" ,
+    "email": "jill.brooks@yopmail.com",
+    "phone": "4602223909",
+    "password": "1!asdaAdf"
+  },
+  "exampleTwo": {
+    "firstName": "Dave",
+    "lastName": " " ,
+    "email": "dave.brooksyopmail.com",
+    "phone": "ava",
+    "password": "1234509822"
+  }
+}

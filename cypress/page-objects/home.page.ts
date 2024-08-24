@@ -4,7 +4,7 @@ export class HomePage {
     elements = {
         logoClass: (): Cypress.Chainable<JQuery<HTMLElement>> => cy.get('.logo'),
         signInLink: (): Cypress.Chainable<JQuery<HTMLElement>> => cy.get('.authorization-link').first(),
-        footer : () => cy.get('footer'),
+        footer : (): Cypress.Chainable<JQuery<HTMLElement>> => cy.get('footer'),
         orderAndReturns : () => cy.get('ul.footer.links li.nav.item', {timeout: 1000}).contains('Orders and Returns'),
     };
 
